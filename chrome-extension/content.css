@@ -1,0 +1,22 @@
+/* ScholarSync Chrome Extension - Content Styles */
+
+#scholarsync-indicator {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+#scholarsync-indicator * {
+  box-sizing: border-box;
+}
+
+/* Selection tooltip styles */
+.scholarsync-tooltip {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+.scholarsync-tooltip button {
+  transition: all 0.2s ease;
+}
+
+.scholarsync-tooltip button:hover {
+  transform: translateY(-1px);
+}
